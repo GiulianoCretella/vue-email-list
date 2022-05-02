@@ -4,7 +4,7 @@ const app = new Vue({
      emailArray:[],
     },
     methods: {
-
+       
     },
     created(){
         for(let i = 0 ; i < 10; i++ )
@@ -15,5 +15,5 @@ const app = new Vue({
           console.log(error);
         })
         console.log(this.emailArray)
-    }
+    },
 })
